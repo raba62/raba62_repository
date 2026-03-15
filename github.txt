@@ -1,0 +1,37 @@
+--1 seul fichier
+# 1️⃣ Se positionner dans le dépôt
+cd D:\github\raba62_repository
+
+# 2️⃣ Vérifier l'état du dépôt (optionnel)
+git status
+
+# 3️⃣ Ajouter le fichier au staging (ici, mon_propre_fichier.doc)
+git add mon_propre_fichier.doc
+
+# 4️⃣ Faire un commit avec un message clair
+git commit -m "Ajout de mon_propre_fichier.doc"
+
+# 5️⃣ Pousser le commit sur GitHub
+git push origin main
+
+# 6️⃣ Vérifier que tout est à jour (optionnel)
+git status
+
+--plusieurs fichiers
+# 1️⃣ Se positionner dans le dépôt
+cd D:\github\raba62_repository
+
+# 2️⃣ Vérifier l'état du dépôt (optionnel)
+git status
+
+# 3️⃣ Ajouter tous les fichiers nouveaux ou modifiés
+git add .
+
+# 4️⃣ Faire un commit avec un message clair
+git commit -m "Ajout/Modification de plusieurs fichiers"
+
+# 5️⃣ Pousser tous les commits sur GitHub
+git push origin main
+
+# 6️⃣ Vérifier que tout est à jour (optionnel)
+git status
