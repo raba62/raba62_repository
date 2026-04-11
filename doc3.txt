@@ -1,0 +1,23 @@
+C:\Program Files\MongoDB\Server\8.2\data\
+C:\Program Files\MongoDB\Server\8.2\log\
+
+
+msiexec /i "D:\compass\mongodb-windows-x86_64-8.2.5-signed.msi"
+D:\compass
+
+accoutt domain   vide
+account name  vide 
+account password vide
+sercive MongoDB
+data directory C:\Program Files\MongoDB\Server\8.2\data\
+log directory C:\Program Files\MongoDB\Server\8.2\log\
+
+
+j'ai copié dans  C:\Program Files\MongoDB\Server\8.2\bin les 6 fichiers
+Install-Compass.ps1 mongod.exe  mongod.pdb mongos.exe mongos.pdb vc_redist.x64.exe
+
+mongosh.exe mongosh_crypt_v1.dll
+
+Nom du raccourci : MongoDB Compass
+
+Chemin pointé : C:\Program Files\MongoDB\Compass\MongoDB Compass.exe

@@ -1,0 +1,42 @@
+D:/Téléchargements/2026-02-16-1.pdf
+http://localhost:8889/forms/pdf/direct_31.pdf
+
+WEB.SHOW_DOCUMENT('file:///D:/Téléchargements/2026-02-16-1.pdf', '_blank');
+--WEB.SHOW_DOCUMENT('file:///D:/pdfoutput/direct_31.pdf', '_blank');
+--WEB.SHOW_DOCUMENT('http://localhost:8889/Téléchargements/2026-02-16-1.pdf', '_blank');
+END;
+ http://localhost:8889/forms/frmservlet?form=mod14&userid=scott/Kabyle62@orcl
+ 
+ DEFAULT&SMARTBAR
+ 
+ &Current_Date        →  date du jour
+&Current_Time        →  heure actuelle
+&User_Name           →  nom de l'utilisateur connecté
+&CP_Current_Page_Number  →  numéro de page courante
+&CP_Total_Page_Count     →  nombre total de pages
+&Report_Name 
+
+firstName: {
+    type: String,
+    required: true
+  },
+  lastName: {
+    type: String,
+    required: true
+  },
+  birthDate: {
+    type: Date,
+    required: true,
+  }
+  {
+  "firstName": "John",
+  "lastName": "Doe",
+  "birthDate": "1990-05-15"
+}
+
+ "fullName ": {
+    Scott Tiger
+  },
+   "age ": {
+    30
+  }
